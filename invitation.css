@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #E2E2E2;
+}
+
+header {
+    background-color: #1d4594;
+    height: 60px;
+    box-shadow: 0 4px 4px #acacac;
+}
+
+header h1 {
+    color: #ffffff;
+    padding: 10px 35px;
+}
+#icon{
+    height: 20px;
+}
+.send_invitation{
+    background-color: #ffffff;
+  width: 450px;
+  height: 400px;
+  margin: 70px auto;
+  box-shadow: 4px 4px 4px #acacac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
