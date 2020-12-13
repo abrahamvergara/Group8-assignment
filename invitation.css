@@ -33,38 +33,35 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-#S{
+
+#S {
     margin-top: 2px;
     margin-left: 0px;
 }
-h2{
+
+h2 {
     margin-top: 10px;
-    margin-left: 0px; 
+    margin-left: 0px;
 }
+
 .line1 {
     border-left: 470px solid #1d4594;
     height: 1px;
-    margin-top:2px;
-    
-    
+    margin-top: 2px;
 }
+
 .line2 {
     border-left: 470px solid #1d4594;
     height: 1px;
     margin-top: 10px;
-    
-    
 }
+
 .line3 {
     border-left: 470px solid #1d4594;
     height: 1px;
     margin-top: 200px;
-    
-    
 }
-
 
 form input[type="search"] {
     font-size: 20px;
@@ -75,34 +72,34 @@ form input[type="search"] {
     font-style: italic;
     margin-top: 10px;
     margin-left: 3px;
-   
 }
-form a{
+
+img {
+    height: 20px;
+    width: auto;
     text-decoration: none;
 }
 
-#send-link{
+form a {
+    text-decoration: none;
+}
+
+#send-link {
     margin-top: 20px;
     margin-left: 3px;
-
+    height: 30px;
+    width: 460px;
 }
 
-
-.rectangle1 {
-    position: absolute;
-    width: 420px;
-    height: 0px;
-    border: 1px solid #000000;
-}
-
-
-form input[type="button"]:hover {
+.btn1:hover {
     background-color: #5081e2;
 }
 
+.btn2:hover {
+    background-color: #5081e2;
+}
 
-
-#btn1 {
+.btn1 {
     border-style: none;
     background-color: #1d4594;
     color: #ffffff;
@@ -112,7 +109,7 @@ form input[type="button"]:hover {
     border-radius: 20px;
 }
 
-#btn2 {
+.btn2 {
     border-style: none;
     background-color: #1d4594;
     color: #ffffff;
