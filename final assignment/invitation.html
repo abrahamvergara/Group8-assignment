@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <link rel="stylesheet" href="invitation.css" />
+    <script src="invitation.js"></script>
+
+</head>
+
+<body class="bg">
+    <header class="head">
+        <img src="Logo.png" alt="ligo" id="logo">
+        <h1>PhilNationAcademy</h1>
+        
+
+    </header>
+
+
+    <button id="myBtn">SEND INVITATION</button>
+
+
+    <div id="myModal" class="modal">
+        
+        <form class="modal-content">
+            <span class="close">&times;</span>
+            <h1 id="S">SEND INVITATION</h1>
+            <h3>Invitation Code</h3>
+            <a href="https://classroom.google.com/c/sYyMTA3ODcy?cjc=uovrrsd">123456789</a>
+            <p class="line1"></p>
+            <input type="search" placeholder="Type a name or email" id="send-link" required>
+            <p class="line2"></p>
+            <p class="line3"></p>
+
+            <input type="button" value="Cancel" class="cancel-btn" onclick="myFunctions()">
+            <input type="button" value="Invite" class="invite-btn" onclick="myFunction()">
+            <script>
+                function myFunctions() {
+                    alert("Cancelled");
+                }
+            </script>
+
+            <script>
+                function myFunction() {
+                    alert("You Have Successfully Send Invitation!!");
+                }
+            </script>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
