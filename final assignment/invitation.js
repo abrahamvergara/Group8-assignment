@@ -6,9 +6,6 @@ window.onload = function () {
     var btn2 = document.getElementById("myBtn2");
     var span = document.getElementsByClassName("close")[0];
     var span2 = document.getElementsByClassName("close2")[0];
-
-
-
     btn.onclick = function () {
         modal.style.display = "block";
     }

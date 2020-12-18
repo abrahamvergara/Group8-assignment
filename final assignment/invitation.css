@@ -21,8 +21,6 @@
     font-size: 30px;
 }
 
-
-
 #logo {
     width: 50px;
     height: 40px;
@@ -58,7 +56,6 @@
     margin: 1em 0;
     padding: 0;
 }
-
 .line5 {
     height: 1px;
     border: 0;
@@ -66,18 +63,15 @@
     margin: 1em 0;
     padding: 0;
 }
-
 .list {
     color: black;
     font-size: 17px;
-    
     margin-left: -1%;
     list-style: none;
 }
 .list2 {
     color: black;
     font-size: 18px;
-  
     margin-left: 4%;
     list-style: none;
 }
@@ -110,27 +104,19 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-.modal-content{
+.modal-content {
     margin-top: 2px;
     margin-left: 0px;
     color: #b36b00;
 }
 
-
-
-
-
-.line1,.line3,.line6 {
+.line1, .line3, .line6 {
     height: 1px;
     border: 0;
     border-top: 1px solid #b36b00;
     margin: 1em 0;
     padding: 0;
 }
-
-
-
 
 form input[type="search"] {
     font-size: 18px;
@@ -159,8 +145,6 @@ form input[type="search"] {
 #myBtn:hover {
     background-color: #ff9900;
 }
-
-
 
 .cancel-btn:hover {
     background-color: #ff9900;
@@ -209,13 +193,9 @@ form input[type="search"] {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
-
 .modal-content a {
     text-decoration: none;
 }
-
-
 
 .modal-content {
     background-color: #fefefe;
@@ -229,8 +209,6 @@ form input[type="search"] {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
 .close {
     color: #b36b00;
     float: right;
@@ -243,4 +221,3 @@ form input[type="search"] {
     text-decoration: none;
     cursor: pointer;
 }
-
