@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation</title>
+    <title>Invitation Page</title>
     <link rel="stylesheet" href="invitation.css" />
     <script src="invitation.js"></script>
 
@@ -14,19 +14,41 @@
     <header class="head">
         <img src="Logo.png" alt="ligo" id="logo">
         <h1>PhilNationAcademy</h1>
-        
+
 
     </header>
+    <br>
+    <div class=div1>
+        <section class="sec1">
+            <h1>Teachers <button id="myBtn">Invite Teachers</button> </h1>
+            <hr><br>
+            <p class="list">Jonathan Hipolito</p>
+        </section>
+        <br><br><br><br><br>
+        <section class="sec2">
+            <h1>Students <button id="myBtn">Invite Students</button> </h1>
+            <hr><br>
+            <ul class="list">
+                <li>Abraham Vergara</li>
+                <li>Angelo Feliciano Martin</li>
+                <li>Jayvee Villarama</li>
+                <li>John Carlo Constantino</li>
+                <li>Carlos Lomuntad</li>
+
+            </ul>
+        </section>
+
+    </div>
 
 
-    <button id="myBtn">SEND INVITATION</button>
+
 
 
     <div id="myModal" class="modal">
-        
+
         <form class="modal-content">
             <span class="close">&times;</span>
-            <h1 id="S">SEND INVITATION</h1>
+            <h1 id="S">Invite Teachers</h1>
             <h3>Invitation Code</h3>
             <a href="https://classroom.google.com/c/sYyMTA3ODcy?cjc=uovrrsd">123456789</a>
             <p class="line1"></p>
@@ -44,12 +66,13 @@
 
             <script>
                 function myFunction() {
-                    alert("You Have Successfully Send Invitation!!");
+                    alert("You Have Successfully Sent The Invitation!!");
                 }
             </script>
 
         </form>
     </div>
+
 
 
 </body>

@@ -13,13 +13,15 @@
 .head h1 {
     color: #ffffff;
     padding: 10px 35px;
-    margin-left: -33px;
+    margin-left: -25px;
 }
-#logo{
+
+#logo {
     width: 40px;
     height: auto;
     margin-left: 50px;
 }
+
 .head {
     color: #fefefe;
     background-color: #b36b00;
@@ -30,15 +32,35 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.div1 {
+    background-color: none;
+    color: #b36b00;
+    display: block;
+    background-color: #fefefe;
+    padding: 30px;
+    text-indent: 2em;
+    margin: auto;
+    border: 2px solid #b36b00;
+    width: 50%;
+    font-size: larger;
+}
+
+.list {
+    color: black;
+    font-size: large;
+    display: block;
+}
+
 #myBtn {
-    margin-top: 30px;
-    margin-left: 20px;
+    position: relative;
+    left: 33em;
+    bottom: 5px;
     border-style: none;
     border-radius: 12px;
     outline: none;
     background-color: #b36b00;
     color: #ffffff;
-    padding: 10px 40px;
+    padding: 10px 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -167,7 +189,8 @@ form input[type="search"] {
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
     color: #ff9900;
     text-decoration: none;
     cursor: pointer;
