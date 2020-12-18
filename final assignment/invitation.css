@@ -43,6 +43,7 @@
     border: 2px solid #b36b00;
     width: 50%;
     font-size: larger;
+    box-shadow: 4px 4px 4px rgb(80, 67, 67);
 }
 
 .list {
