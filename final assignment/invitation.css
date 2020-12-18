@@ -7,7 +7,8 @@
     background-color: #fffcf7;
     background-image: url("School.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    
+    background-size: 100% 100%;
 }
 
 .head h1 {
@@ -220,4 +221,11 @@ form input[type="search"] {
     color: #ff9900;
     text-decoration: none;
     cursor: pointer;
+}
+footer{
+   color: #fefefe;
+    background-color: #b36b00;
+    text-align: center;
+    padding: 12px;
+    margin-top: 13%;
 }
